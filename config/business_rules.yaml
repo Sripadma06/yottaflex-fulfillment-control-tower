@@ -1,0 +1,15 @@
+currency: USD
+seed: 20261022
+allocation:
+  split_threshold_days: 1
+  max_legs: 3
+  atp_formula: "on_hand - reserved - safety_stock"
+promise:
+  buffer_days_by_reliability_band:
+    A: 0
+    B: 1
+    C: 2
+tracking:
+  terminal_event: DELIVERED
+anomalies:
+  per_scenario: 100

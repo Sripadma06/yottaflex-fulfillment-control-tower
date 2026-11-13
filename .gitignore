@@ -13,4 +13,3 @@ build/
 *.egg-info/
 data/generated/
 
-data/full_real_engine/

@@ -1,0 +1,89 @@
+{
+  "generator": {
+    "name": "fulfillment-optimizer",
+    "version": "1.1.0"
+  },
+  "dataset": {
+    "scale": "full",
+    "seed": 20261022,
+    "deterministic": true
+  },
+  "summary": {
+    "status": "generated",
+    "root": "data\\full_artifact_test",
+    "scale": "full",
+    "seed": 20261022,
+    "orders": 50000,
+    "fulfillment_nodes": 20,
+    "carriers": 10,
+    "inventory_records": 200,
+    "holidays": 7,
+    "allocation_decisions": 50000,
+    "shipments": 53429,
+    "split_orders": 3429,
+    "split_shipment_pct": 6.86,
+    "delayed_shipments": 8598,
+    "exception_orders": 1499,
+    "tracking_events": 296551,
+    "ground_truth": 5,
+    "exports": [
+      "orders.csv",
+      "fulfillment_nodes.csv",
+      "carriers.csv",
+      "inventory.csv",
+      "holidays.csv",
+      "allocations.csv",
+      "shipments.csv",
+      "tracking_events.csv",
+      "ground_truth.csv"
+    ]
+  },
+  "files": [
+    {
+      "name": "allocations.csv",
+      "size_bytes": 330739637,
+      "sha256": "0cf531691ecfcdb7f1c1f03ee4265c9bf8454924f56968de6da86ff4d70b1e74"
+    },
+    {
+      "name": "carriers.csv",
+      "size_bytes": 437,
+      "sha256": "98e6ba43d852937c3e554c37e1424f5d915c3652ff8969b5e2d0e94414dc5ae7"
+    },
+    {
+      "name": "fulfillment_nodes.csv",
+      "size_bytes": 1071,
+      "sha256": "93b9b1e4b9dc5d3303b5830bbdaf1238b1be91f52467519c433ebea962d4cf7e"
+    },
+    {
+      "name": "ground_truth.csv",
+      "size_bytes": 255,
+      "sha256": "79f3647dc4528c186d614ec2991c299c156f4a73db9a262b16df4aced8773fde"
+    },
+    {
+      "name": "holidays.csv",
+      "size_bytes": 376,
+      "sha256": "c2d1482b254eebc5cbcaeb6ce7bb127011a49657d1ac8da51880521e9394dd50"
+    },
+    {
+      "name": "inventory.csv",
+      "size_bytes": 7220,
+      "sha256": "40c46d565d8e1e391b91cffbe498c0a2735b769083c63da8b0865d60c563b96f"
+    },
+    {
+      "name": "orders.csv",
+      "size_bytes": 5325870,
+      "sha256": "160664af73ab8c1f4723b48e86196a11825bc8a54bee0a4e4e1f8b0843c69414"
+    },
+    {
+      "name": "shipments.csv",
+      "size_bytes": 6007840,
+      "sha256": "b6fef2772736867e7a31d78a938254afec7f7964f7edeeed46b3cec9d843bb8e"
+    },
+    {
+      "name": "tracking_events.csv",
+      "size_bytes": 26222079,
+      "sha256": "4c2ea425894c5366da997d2fee2143b6c5b229ca48afbbd5fc2740c56bed3402"
+    }
+  ],
+  "checksums_file": "checksums.sha256"
+}
